@@ -73,7 +73,7 @@ You can set a server, go to that url to see the projects locally.
 ## <a name="authors"> Author </a>
 
 <p align="center">
-<a href="https://shahjabir.netlify.app">
+<a href="https://shahjabir.com.bd">
 <img src="https://img.shields.io/badge/Website-ShahJabir-black" alt="Facebook" /></a>
 <a href="https://github.com/ShahJabir">
 <img src="https://img.shields.io/badge/Github-ShahJabir-white" alt="Facebook" /></a>
