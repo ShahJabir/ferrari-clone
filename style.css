@@ -102,6 +102,11 @@ nav ul a {
   gap: 10px;
 }
 
+.banner-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 /* news */
 .news-section {
   margin: 80px;
@@ -139,6 +144,11 @@ nav ul a {
   gap: 10px;
 }
 
+.news-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .news-all {
   text-align: center;
   text-transform: uppercase;
@@ -150,7 +160,7 @@ nav ul a {
 }
 
 svg {
-  border: 1px solid;
+  border: 2px solid;
   padding: 8px;
   border-radius: 100%;
 }
@@ -223,6 +233,15 @@ svg {
   gap: 10px;
 }
 
+.catbtn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+svg:hover {
+  border: 2px solid red;
+}
+
 /* subscribe */
 .subscribe {
   background-color: #222222;
@@ -241,6 +260,11 @@ svg {
   border: none;
   color: white;
   text-transform: uppercase;
+}
+
+.subscribe button:hover {
+  background-image: linear-gradient(#b01e0a);
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
