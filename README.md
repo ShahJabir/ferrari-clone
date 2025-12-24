@@ -88,7 +88,7 @@ You can set a server, go to that url to see the projects locally.
 
 ## <a name="license">License 📄</a>
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ShahJabir/ferrari-clone/blob/main/LICENSE) file for details
+This project is licensed under the Apache License - see the [LICENSE.md](https://github.com/ShahJabir/ferrari-clone/blob/main/LICENSE) file for details
 
 ## <a name="acknowledgments">Acknowledgments 🎁 </a>
 
