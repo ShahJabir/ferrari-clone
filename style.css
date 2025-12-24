@@ -15,18 +15,6 @@ nav {
   align-items: flex-start;
 }
 
-.logo {
-  font-size: 28px;
-  font-weight: bold;
-  color: #fff;
-  letter-spacing: 3px;
-}
-.logo svg {
-  max-width: 60px;
-  height: 60px;
-  fill: #fff;
-}
-
 .back-video {
   position: absolute;
   right: 0;
@@ -43,6 +31,18 @@ nav ul li {
 
 .sm {
   display: none;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.logo svg {
+  max-width: 60px;
+  height: 60px;
+  fill: #fff;
 }
 
 nav div {
@@ -69,22 +69,24 @@ nav ul a {
   text-transform: uppercase;
 }
 
-.fa-angle-right {
-  border: 2px solid;
-  padding: 5px 3px;
-  border-radius: 100%;
-}
-
 .banner-bottom {
   position: absolute;
+  width: 100%;
   bottom: 10px;
-  left: 30%;
+  left: 50%;
+  transform: translateX(-50%);
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: end;
+  text-align: center;
   gap: 15px;
+}
+
+.fa-angle-right {
+  border: 2px solid;
+  padding: 5px 3px;
+  border-radius: 100%;
 }
 
 .span1 {
@@ -159,7 +161,8 @@ nav ul a {
   gap: 25px;
 }
 
-svg {
+.news-section svg,
+.category-section svg {
   border: 2px solid;
   padding: 8px;
   border-radius: 100%;
@@ -176,6 +179,19 @@ svg {
   width: 70px;
   background: #000;
   opacity: 0.6;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  background: #000;
+}
+
+.dot1 {
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 100%;
 }
 
 /* category */
@@ -195,7 +211,12 @@ svg {
 .category img {
   width: 100%;
   background-size: cover;
+  /* transition: transform 2s ease; */
 }
+
+/* .category img:hover {
+  transform: scale(1.05);
+} */
 
 .categorydiv {
   position: relative;
@@ -212,7 +233,7 @@ svg {
   flex-direction: column;
   gap: 15px;
   align-items: center;
-  width: 90%;
+  width: 100%;
 }
 
 .catspan1 {
@@ -220,7 +241,7 @@ svg {
 }
 
 .catspan {
-  font-size: 45px;
+  font-size: 40px;
   text-transform: uppercase;
   font-weight: 600;
   text-align: center;
@@ -238,7 +259,8 @@ svg {
   cursor: pointer;
 }
 
-svg:hover {
+.news-section svg:hover,
+.category-section svg:hover {
   border: 2px solid red;
 }
 
@@ -297,15 +319,11 @@ svg:hover {
     display: none;
   }
 
-  .banner-bottom {
-    left: 10%;
-  }
-
   .span1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .span2 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   /* news */
