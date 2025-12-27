@@ -50,7 +50,7 @@ code@latest
 
 **Cloning the Repository**
 
-From your command line, first clone Simplefolio:
+From your command line, first clone this repo:
 
 ```bash
 $ git clone https://github.com/ShahJabir/ferrari-clone
